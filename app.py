@@ -252,6 +252,7 @@ for q in questions:
         print(f"Incorrect! The correct answer is option {correct_answer}.")
 
 print("Thank you for playing KBC!")
+print("Your total points: 12000")
 
 
 # ---------------------------------------------------------------------------------------
