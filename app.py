@@ -251,6 +251,8 @@ for q in questions:
         correct_answer = 'b' if q == questions[0] else 'b'
         print(f"Incorrect! The correct answer is option {correct_answer}.")
 
+print("Thank you for playing KBC!")
+
 
 # ---------------------------------------------------------------------------------------
 
