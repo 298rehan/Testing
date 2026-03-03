@@ -236,25 +236,47 @@
 
 # KBC project:
 
-print("Welcome to KBC")
+# print("Welcome to KBC")
 
-questions = ["Question 1: What is the capital of Pakistan? a: Islamabad b: Karachi c: Lahore d: Peshawar",
-             "Question 2: SQL stands for? a: Strong Question Language b: Structured Query Language c: Stylish Question Language d: Stylesheet Query Language",
-             "Q4uestion 3: Who is the founder of Microsoft? a: Steve Jobs b: Elon Musk c: Mark Zuckerberg d: Bill Gates",
-             "Question 4: What is the largest planet in our solar system? a: Earth b: Jupiter c: Saturn d: Mars"]
-for q in questions:
-    print(q)
-    answer = input("Enter your answer (a/b/c/d): ")
-    if (q == questions[0] and answer.lower() == 'b') or (q == questions[1] and answer.lower() == 'b') or (q == questions[2] and answer.lower() == 'd') or (q == questions[3] and answer.lower() == 'b'):
-        print("Correct! You win 3000 points.")
-    else:
-        correct_answer = 'b' if q == questions[0] else 'b'
-        print(f"Incorrect! The correct answer is option {correct_answer}.")
+# questions = ["Question 1: What is the capital of Pakistan? a: Islamabad b: Karachi c: Lahore d: Peshawar",
+#              "Question 2: SQL stands for? a: Strong Question Language b: Structured Query Language c: Stylish Question Language d: Stylesheet Query Language",
+#              "Q4uestion 3: Who is the founder of Microsoft? a: Steve Jobs b: Elon Musk c: Mark Zuckerberg d: Bill Gates",
+#              "Question 4: What is the largest planet in our solar system? a: Earth b: Jupiter c: Saturn d: Mars"]
+# for q in questions:
+#     print(q)
+#     answer = input("Enter your answer (a/b/c/d): ")
+#     if (q == questions[0] and answer.lower() == 'b') or (q == questions[1] and answer.lower() == 'b') or (q == questions[2] and answer.lower() == 'd') or (q == questions[3] and answer.lower() == 'b'):
+#         print("Correct! You win 3000 points.")
+#     else:
+#         correct_answer = 'b' if q == questions[0] else 'b'
+#         print(f"Incorrect! The correct answer is option {correct_answer}.")
 
-print("Thank you for playing KBC!")
-print("Your total points: 12000")
+# print("Thank you for playing KBC!")
+# print("Your total points: 12000")
 
 
 # ---------------------------------------------------------------------------------------
 
 # Day: 13 learning python
+
+# Fibonacci series:
+# def fibonacci(num):
+#     if num == 0 or num == 1:
+#         return num
+#     else:
+#         return fibonacci(num-1) + fibonacci(num-2)
+
+
+# n = int(input("Enter the number of terms: "))
+# print("Fibonacci series:", fibonacci(n))
+
+
+def fibonacci(num):
+    if num == 0 or num == 1:
+        return num
+    else:
+        return fibonacci(num-1) + fibonacci(num-2)
+
+
+n = int(input("Enter the number: "))
+print(f"Fibonacci series of this num {n} is: ", fibonacci(n))
