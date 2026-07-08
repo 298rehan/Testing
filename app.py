@@ -271,12 +271,25 @@
 # print("Fibonacci series:", fibonacci(n))
 
 
-def fibonacci(num):
-    if num == 0 or num == 1:
-        return num
-    else:
-        return fibonacci(num-1) + fibonacci(num-2)
+# def fibonacci(num):
+#     if num == 0 or num == 1:
+#         return num
+#     else:
+#         return fibonacci(num-1) + fibonacci(num-2)
 
 
-n = int(input("Enter the number: "))
-print(f"Fibonacci series of this num {n} is: ", fibonacci(n))
+# n = int(input("Enter the number: "))
+# print(f"Fibonacci series of this num {n} is: ", fibonacci(n))
+
+
+# info = {"Carlos", 38, "Engineer", "Carlos", 123456789}
+# print(info)
+# for value in info:
+#     print(value)
+
+# ---------------------------------------------------------------------------------------
+
+Age = 19
+Fvrt_food = "Pizza"
+print(f"Your age is {Age}")
+print(f"My favourite food is {Fvrt_food}")
