@@ -293,3 +293,4 @@ Age = 19
 Fvrt_food = "Pizza"
 print(f"Your age is {Age}")
 print(f"My favourite food is {Fvrt_food}")
+print("Hello")
