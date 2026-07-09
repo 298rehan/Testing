@@ -364,9 +364,9 @@ import math
 #
 # (One-Line if-else even or odd check):
 
-# num = float(input("Enter your number: "))
-# result = "EVEN" if num % 2 == 0 else "ODD"
-# print(result)
+num = float(input("Enter your number: "))
+result = "EVEN" if num % 2 == 0 else "ODD"
+print(result)
 
 user_role = "primary_user"
 
