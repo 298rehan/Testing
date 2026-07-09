@@ -289,8 +289,87 @@
 
 # ---------------------------------------------------------------------------------------
 
-Age = 19
-Fvrt_food = "Pizza"
-print(f"Your age is {Age}")
-print(f"My favourite food is {Fvrt_food}")
-print("Hello")
+# Age = 19
+# Fvrt_food = "Pizza"
+# print(f"Your age is {Age}")
+# print(f"My favourite food is {Fvrt_food}")
+# print("Hello")
+
+# ---------------------------------------------------------------------------------------
+
+# Day: 14 learning python (Shopping Cart Program)
+import math
+
+# item = input("Enter the item you want to buy: ")
+# quantity = int(input("Enter the quantity: "))
+# price = float(input("Enter the price: "))
+# total = quantity * price
+#
+# print(f"The Total of your's is ${total}")
+
+# (Area Of a Circle):
+
+# radius = float(input("Enter the Radius of the Circle: "))
+
+# area = math.pi * pow(radius, 2)
+
+# print(f"The area of a circle is {round(area, 2)}cm²")
+
+
+# a = float(input("Enter the side A: "))
+# b = float(input("Enter the side B: "))
+
+# c = math.sqrt(pow(a, 2) + pow(b, 2))
+
+# print(f"The Side C is {round(c, 2)}")
+
+# operator = input("Enter the operator (+ - / *)")
+# number1 = float(input("Enter your first number: "))
+# number2 = float(input("Enter your second number: "))
+#
+# if operator == "+":
+# result = number1 + number2
+# print(result)
+#
+# elif operator == "-":
+# result = number1 - number2
+# print(result)
+#
+# elif operator == "*":
+# result = number1 * number2
+# print(result)
+#
+# elif operator == "/":
+# result = number1 / number2
+# print(result)
+#
+# else:
+# print("Something is wrong!!")
+#
+# (Weight Converter Program):
+
+# weight = float(input("Enter yout weight: "))
+# unit = input("Kilogram or Pounds? (K or L)")
+#
+# if unit == "K":
+# weight = weight * 2.205
+# unit = "Lbs"
+# elif unit == "L":
+# weight = weight / 2.205
+# unit = "Kgs"
+# else:
+# print(f"{unit} is not valid!")
+#
+# print(f"Your weight is {round(weight, 1)} {unit}")
+#
+# (One-Line if-else even or odd check):
+
+# num = float(input("Enter your number: "))
+# result = "EVEN" if num % 2 == 0 else "ODD"
+# print(result)
+
+user_role = "primary_user"
+
+access_level = "Full access" if user_role == "admin" else "Access denied"
+
+print(access_level)
