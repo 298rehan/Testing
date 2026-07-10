@@ -411,8 +411,8 @@ import math
 # (PSX Interest rate calculator)
 
 
-print("PSX Interest rate calculator")
-
+# print("PSX Interest rate calculator")
+#
 amount = 0
 rate = 0
 time = 0
@@ -420,21 +420,25 @@ monthly_rate = 0
 total_months = 0
 
 
-while amount <= 0:
+while True:
     amount = float(input("Enter the amount Rs: "))
     if amount <= 0:
         print("The amount can't be less than zero")
+    else:
+        break
 
-while rate <= 0:
+while True:
     rate = float(input("Enter the interest rate %: "))
     if rate <= 0:
         print("The interest rate can't be less than zero")
-
-while time <= 0:
+    else:
+        break
+while True:
     time = float(input("Enter how much year's: "))
     if time <= 0:
         print("The time can't be less than zero")
-
+    else:
+        break
 
 monthly_rate = (rate / 100) / 12
 
