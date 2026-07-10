@@ -364,12 +364,90 @@ import math
 #
 # (One-Line if-else even or odd check):
 
-num = float(input("Enter your number: "))
-result = "EVEN" if num % 2 == 0 else "ODD"
-print(result)
+# num = float(input("Enter your number: "))
+# result = "EVEN" if num % 2 == 0 else "ODD"
+# print(result)
 
-user_role = "primary_user"
+# user_role = "primary_user"
 
-access_level = "Full access" if user_role == "admin" else "Access denied"
+# access_level = "Full access" if user_role == "admin" else "Access denied"
 
-print(access_level)
+# print(access_level)
+
+# (Username checker):
+
+# username = input("Enter Your Username: ")
+# #
+# if len(username) > 12:
+#     print("Your username can't be more than 12 characters")
+# elif not username.find(" ") == -1:
+#     print("Please enter username without spaces")
+# elif not username.isalpha():
+#     print("Your username can't be contain numbers")
+# else:
+#     print(f"Welcome {username}")
+#
+# ---------------------------------------------------------------------------------------
+
+# Day: 15 learning python
+
+# (Showing last digits credit card number)
+# credit_number = "1234-5678-9012-3456"
+
+# last_digits = credit_number[-5:]
+
+# print(f"XXXX-XXXX-XXXX{last_digits}")
+
+
+# price1 = 3.1241
+# price2 = 6453.43
+# price3 = 187512.14
+#
+# print(f"price1 is Rs {price1:,.2f}")
+# print(f"price2 is Rs {price2:,.2f}")
+# print(f"price3 is Rs {price3:,.2f}")
+
+
+# (PSX Interest rate calculator)
+
+
+print("PSX Interest rate calculator")
+
+amount = 0
+rate = 0
+time = 0
+monthly_rate = 0
+total_months = 0
+
+
+while amount <= 0:
+    amount = float(input("Enter the amount Rs: "))
+    if amount <= 0:
+        print("The amount can't be less than zero")
+
+while rate <= 0:
+    rate = float(input("Enter the interest rate %: "))
+    if rate <= 0:
+        print("The interest rate can't be less than zero")
+
+while time <= 0:
+    time = float(input("Enter how much year's: "))
+    if time <= 0:
+        print("The time can't be less than zero")
+
+
+monthly_rate = (rate / 100) / 12
+
+total_months = time * 12
+
+monthly_amount = total_months * amount
+
+total = amount * (pow(1 + monthly_rate, total_months) - 1) / monthly_rate
+
+your_profit = total - monthly_amount
+
+print(f"Your own deposits Rs: {monthly_amount:,.2f}")
+
+print(f"Balance after {time} year's will be Rs: {total:,.2f}")
+
+print(f"Your profit will be Rs: {your_profit:,.2f}")
