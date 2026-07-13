@@ -413,45 +413,47 @@ import math
 
 # print("PSX Interest rate calculator")
 #
-amount = 0
-rate = 0
-time = 0
-monthly_rate = 0
-total_months = 0
+# amount = 0
+# rate = 0
+# time = 0
+# monthly_rate = 0
+# total_months = 0
 
 
-while True:
-    amount = float(input("Enter the amount Rs: "))
-    if amount <= 0:
-        print("The amount can't be less than zero")
-    else:
-        break
+# while True:
+#     amount = float(input("Enter the amount Rs: "))
+#     if amount <= 0:
+#         print("The amount can't be less than zero")
+#     else:
+#         break
 
-while True:
-    rate = float(input("Enter the interest rate %: "))
-    if rate <= 0:
-        print("The interest rate can't be less than zero")
-    else:
-        break
-while True:
-    time = float(input("Enter how much year's: "))
-    if time <= 0:
-        print("The time can't be less than zero")
-    else:
-        break
+# while True:
+#     rate = float(input("Enter the interest rate %: "))
+#     if rate <= 0:
+#         print("The interest rate can't be less than zero")
+#     else:
+#         break
+# while True:
+#     time = float(input("Enter how much year's: "))
+#     if time <= 0:
+#         print("The time can't be less than zero")
+#     else:
+#         break
 
-monthly_rate = (rate / 100) / 12
+# monthly_rate = (rate / 100) / 12
 
-total_months = time * 12
+# total_months = time * 12
 
-monthly_amount = total_months * amount
+# monthly_amount = total_months * amount
 
-total = amount * (pow(1 + monthly_rate, total_months) - 1) / monthly_rate
+# total = amount * (pow(1 + monthly_rate, total_months) - 1) / monthly_rate
 
-your_profit = total - monthly_amount
+# your_profit = total - monthly_amount
 
-print(f"Your own deposits Rs: {monthly_amount:,.2f}")
+# print(f"Your own deposits Rs: {monthly_amount:,.2f}")
 
-print(f"Balance after {time} year's will be Rs: {total:,.2f}")
+# print(f"Balance after {time} year's will be Rs: {total:,.2f}")
 
-print(f"Your profit will be Rs: {your_profit:,.2f}")
+# print(f"Your profit will be Rs: {your_profit:,.2f}")
+
+print("Hello World")
