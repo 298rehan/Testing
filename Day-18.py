@@ -26,31 +26,35 @@
 # else:
 # print("Please Enter Greater or Lower digit from zero")
 
-# Calculator
-number = int(input("Enter your first number: "))
-operator = input("Enter your operator: ")
-num = int(input("Enter your second number: "))
+# # Calculator
+# number = int(input("Enter your first number: "))
+# operator = input("Enter your operator: ")
+# num = int(input("Enter your second number: "))
 
-if operator == "+":
-    print("The sum is:", number + num)
+# if operator == "+":
+#     print("The sum is:", number + num)
 
-elif operator == "-":
-    print("The subtract is:", number - num)
+# elif operator == "-":
+#     print("The subtract is:", number - num)
 
-elif operator == "*":
-    print("The multiplication is:", number * num)
+# elif operator == "*":
+#     print("The multiplication is:", number * num)
 
-elif operator == "/":
-    if num == 0:
-        print("Cannot divide by zero")
-    else:
-        print("The division is:", number / num)
+# elif operator == "/":
+#     if num == 0:
+#         print("Cannot divide by zero")
+#     else:
+#         print("The division is:", number / num)
 
-elif operator == "%":
-    if num == 0:
-        print("Cannot use modulo with zero")
-    else:
-        print("The modulo is:", number % num)
+# elif operator == "%":
+#     if num == 0:
+#         print("Cannot use modulo with zero")
+#     else:
+#         print("The modulo is:", number % num)
 
-else:
-    print("Invalid operator")
+# else:
+#     print("Invalid operator")
+
+for i in range(1, 101):
+    if i % 2 == 0:
+        print(i)
