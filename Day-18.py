@@ -108,17 +108,27 @@
 #     attempts += 1
 # print(f"You took {attempts + 1} attempts to guess the number.")
 # total attempts = 3 allow only 3 attempts to guess the password
-correct_password = "python123"
+# correct_password = "python123"
 
-attempts = 0
-while attempts < 3:
-    pass_checker = input(
-        "Guess the password: (Hint: Password starts with py or ends with 23): ")
-    if pass_checker == correct_password:
-        print("Access granted. Welcome!")
-        break
-    attempts += 1
-    if attempts < 3:
-        print("Incorrect password. Try again.")
-    else:
-        print("You have exceeded the maximum number of attempts. Access denied.")
+# attempts = 0
+# while attempts < 3:
+#     pass_checker = input(
+#         "Guess the password: (Hint: Password starts with py or ends with 23): ")
+#     if pass_checker == correct_password:
+#         print("Access granted. Welcome!")
+#         break
+#     attempts += 1
+#     if attempts < 3:
+#         print("Incorrect password. Try again.")
+#     else:
+#         print("You have exceeded the maximum number of attempts. Access denied.")
+
+
+print("Calculate Your Percentage ")
+
+number = int(input("Enter your marks: "))
+
+total_marks = 550
+
+
+print(f"Your percentage is: {number / total_marks * 100:,.2f}")
