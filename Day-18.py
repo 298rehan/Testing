@@ -123,12 +123,130 @@
 #     else:
 #         print("You have exceeded the maximum number of attempts. Access denied.")
 
+# print("Calculate Your Percentage ")
 
-print("Calculate Your Percentage ")
+# number = int(input("Enter your marks: "))
 
-number = int(input("Enter your marks: "))
-
-total_marks = 550
+# total_marks = 550
 
 
-print(f"Your percentage is: {number / total_marks * 100:,.2f}")
+# print(f"Your percentage is: {number / total_marks * 100:,.2f}")
+
+
+# Day 01:
+
+# print("Age Checker")
+#
+# age = int(input("Enter your age: "))
+#
+# if age < 13:
+# print("Child")
+# elif age <= 17:
+# print("Teenager")
+# elif age <= 59:
+# print("Adult")
+# elif age >= 60:
+# print("Senior")
+# else:
+# print("Please type age!")
+
+
+# print("Even / Odd + Positive / Negative")
+#
+# number = int(input("Enter your number: "))
+#
+# if number >= 1:
+# print("Positive Number")
+# if number % 2 == 0:
+# print("Even Number")
+# else:
+# print("Odd Number")
+# elif number <= -1:
+# print("Negative Number")
+# if number % 2 == 0:
+# print("Even Number")
+# else:
+# print("Odd Number")
+
+
+# print("Calculator")
+
+# number = int(input("Enter your first number: "))
+# operator = input("Enter your operator: ")
+# second_number = int(input("Enter your second number: "))
+
+# if operator == "+":
+#     print("The sum is:", number + second_number)
+# elif operator == "-":
+#     print("The subtract is:", number - second_number)
+# elif operator == "*":
+#     print("The multiplication is:", number * second_number)
+# elif operator == "/":
+#     if second_number == 0:
+#         print("Cannot divide by zero")
+# elif operator == "/":
+#     print("The division is:", number / second_number)
+# elif operator == "  ":
+#     if second_number == 0:
+#         print("Cannot use modulo with zero")
+#     else:
+#         print("The modulo is:", number % second_number)
+# else:
+#     print("Invalid operator")
+
+# print("Marks & Grade Checker")
+
+
+# marks = int(input("Enter your marks: "))
+#
+# if marks >= 90:
+# print("Your Grade is: A+")
+# elif marks >= 80:
+# print("Your Grade is: A")
+# elif marks >= 70:
+# print("Your Grade is: B+")
+# elif marks >= 60:
+# print("Your Grade is: B")
+# elif marks >= 40:
+# print("Your Grade is: C")
+# elif marks < 40:
+# print("Fail")
+#
+# print("Student Result Checker")
+
+
+# def grade_checker(marks):
+#     if marks >= 90:
+#         return "A+"
+#     elif marks >= 80:
+#         return "A"
+#     elif marks >= 70:
+#         return "B+"
+#     elif marks >= 60:
+#         return "B"
+#     elif marks >= 40:
+#         return "C"
+#     else:
+#         return "Fail"
+
+
+# name = input("Enter your name: ")
+# math_marks = int(input("Enter your Math marks: "))
+# english_marks = int(input("Enter your English marks: "))
+# computer_marks = int(input("Enter your Computer marks: "))
+# total_marks = math_marks + english_marks + computer_marks
+# percentage = (total_marks / 300) * 100
+
+
+# print(f"Name: {name}\n")
+
+# print(f"Math Marks: {math_marks}")
+# print(f"English Marks: {english_marks}")
+# print(f"Computer Marks: {computer_marks}\n")
+
+# print(f"Your total marks: {total_marks}")
+# print(f"Your percentage is: {percentage:.2f}%")
+# Grade = grade_checker(percentage, "\n")
+# print(f"Your Grade is: {Grade}")
+# status = "Pass" if percentage >= 40 else "Fail"
+# print(f"Your Result is: {status}")
